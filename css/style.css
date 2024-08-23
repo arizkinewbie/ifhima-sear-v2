@@ -869,6 +869,8 @@
 .footer .footer-item .footer-instagram:hover .footer-search-icon {
     opacity: 1;
     background: rgba(0, 0, 0, .6);
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .footer .footer-item .footer-btn a {
@@ -882,6 +884,18 @@
 
 .footer .footer-item .footer-btn a:hover i {
     color: var(--bs-white);
+}
+
+.footer .logo-container {
+    background-color: white; /* Latar belakang putih */
+    padding: 10px; /* Jarak antara logo dan tepi container */
+    border-radius: 8px; /* Sudut rounded */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+}
+
+.footer .logo-container img {
+    object-fit: contain; /* Menjaga proporsi gambar */
+    max-height: 100px; /* Mengatur tinggi maksimal agar semua logo seragam */
 }
 
 /*** Footer End ***/
