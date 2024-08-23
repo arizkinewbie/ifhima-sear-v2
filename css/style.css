@@ -869,8 +869,8 @@
 .footer .footer-item .footer-instagram:hover .footer-search-icon {
     opacity: 1;
     background: rgba(0, 0, 0, .6);
-    padding: 10px;
-    border-radius: 50%;
+    /* padding: 10px;
+    border-radius: 50%; */
 }
 
 .footer .footer-item .footer-btn a {
