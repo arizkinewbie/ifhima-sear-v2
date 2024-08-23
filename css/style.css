@@ -710,6 +710,11 @@
     background: var(--bs-dark);
 }
 
+.custom-col {
+    flex: 0 0 20%;   /* Lebar kolom sebesar 20% */
+    max-width: 20%;  /* Memastikan lebar maksimum kolom juga 20% */
+}
+
 /*** Team End ***/
 
 /*** Testimonial Start ***/
