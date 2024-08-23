@@ -850,7 +850,7 @@
     overflow: hidden;
 } */
 
-.footer-instagram {
+.footer .footer-instagram {
     padding: 10px;
     background-color: white; /* Warna latar belakang */
     border-radius: 8px;
@@ -858,16 +858,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150px; /* Ukuran tetap untuk container */
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    max-width: 150px;
+    height: auto; /* Ukuran tetap untuk container */
 }
 
-.footer-instagram img {
-    max-height: 100%;
-    max-width: 100%;
+.footer .footer-instagram img {
+    width: 80%;
+    height: auto;
     object-fit: contain; /* Menjaga proporsi gambar */
+    transition: 0.5s;
 }
 
-.col-4 {
+.footer .col-4 {
     padding: 5px; /* Memberikan jarak antar logo */
 }
 
@@ -918,6 +922,7 @@
     padding: 10px; /* Jarak antara logo dan tepi container */
     border-radius: 8px; /* Sudut rounded */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+    
 }
 
 .footer .logo-container img {
