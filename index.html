@@ -82,7 +82,7 @@
     <!-- Navbar & Hero Start -->
     <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-between">
+            <nav class="navbar navbar-expand-lg navbar-light inline-flex justify-content-between">
                 <a href="#" class="navbar-brand p-0 d-flex align-items-center">
                     <h1 class="text-primary mb-0"><img src="img/ifhima-logo.png" alt="Logo"></i></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
@@ -92,7 +92,7 @@
                         <span class="fa fa-bars"></span>
                     </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-0 mx-lg-auto">
+                    <div class="navbar-nav mx-auto">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
                         <div class="nav-item dropdown">
@@ -792,12 +792,12 @@
                                         <!-- <img src="img/logo.png" alt="Logo"> -->
                                     </a>
                                     <p class="text-white mb-4">HIM Student Talent is an international competition organized by IFHIMA-SEAR in collaboration with educational institutions in Southeast Asia.</p>
-                                    <div class="footer-btn d-flex">
+                                    <!-- <div class="footer-btn d-flex">
                                         <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
                                         <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
                                         <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-instagram"></i></a>
                                         <a class="btn btn-md-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-6 col-xl-3">
@@ -814,51 +814,53 @@
                                     <h4 class="mb-4 text-white">University Partner</h4>
                                     <div class="row g-3">
                                         <div class="col-4">
-                                            <div class="footer-instagram rounded logo-container">
-                                                <img src="img/logo-UEU.png" class="img-fluid w-100" alt="Logo UEU">
-                                                <div class="footer-search-icon">
-                                                    <a href="img/logo-UEU.png" data-lightbox="footerInstagram-1" class="my-auto"><i class="fas fa-link text-white"></i></a>
-                                                </div>
+                                            <div class="footer-instagram rounded logo-container position-relative">
+                                                <!-- Letakkan <a> di luar <img> agar gambar bisa diklik -->
+                                                <a href="https://www.esaunggul.ac.id/" target="_blank">
+                                                    <img src="img/logo-UEU.png" class="img-fluid w-100" alt="Logo UEU" style="width: 80px; height: 80px; object-fit: cover;">
+                                                </a>
+                                                <!-- Bagian icon link tetap berada di dalam div terpisah -->
+                                                <!-- <div class="footer-search-icon position-absolute">
+                                                    <a href="https://www.esaunggul.ac.id/" target="_blank"><i class="fas fa-link text-white"></i></a>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <div class="col-4">
-                                            <div class="footer-instagram rounded logo-container">
-                                                <img src="img/logo-UGM.png" class="img-fluid w-100" alt="Logo UGM">
-                                                <div class="footer-search-icon">
-                                                    <a href="img/logo-UGM.png" data-lightbox="footerInstagram-2" class="my-auto"><i class="fas fa-link text-white"></i></a>
-                                                </div>
+                                            <div class="footer-instagram rounded logo-container position-relative">
+                                                <a href="https://ugm.ac.id/" target="_blank">
+                                                    <img src="img/logo-UGM.png" class="img-fluid w-100" alt="Logo UEU" style="width: 80px; height: 80px; object-fit: cover;">
+                                                </a>
+                                                <!-- <div class="footer-search-icon position-absolute">
+                                                    <a href="https://ugm.ac.id/" target="_blank"><i class="fas fa-link text-white"></i></a>
+                                                </div> -->
                                             </div>
                                         </div>
                                         <div class="col-4">
-                                            <div class="footer-instagram rounded logo-container">
-                                                <img src="img/logo-polije.jpeg" class="img-fluid w-100" alt="Logo Polije">
-                                                <div class="footer-search-icon">
-                                                    <a href="img/logo-polije.jpeg" data-lightbox="footerInstagram-3" class="my-auto"><i class="fas fa-link text-white"></i></a>
-                                                </div>
+                                            <div class="footer-instagram rounded logo-container position-relative">
+                                                <a href="https://polije.ac.id/" target="_blank">
+                                                    <img src="img/logo-polije.jpeg" class="img-fluid w-100" alt="Logo UEU" style="width: 80px; height: 80px; object-fit: cover;">
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col-4">
-                                            <div class="footer-instagram rounded logo-container">
-                                                <img src="img/logo-poltekkessmr.png" class="img-fluid w-100" alt="">
-                                                <div class="footer-search-icon">
-                                                    <a href="img/logo-poltekkessmr.png" data-lightbox="footerInstagram-4" class="my-auto"><i class="fas fa-link text-white"></i></a>
-                                                </div>
+                                            <div class="footer-instagram rounded logo-container position-relative">
+                                                <a href="https://poltekkes-smg.ac.id/" target="_blank">
+                                                    <img src="img/logo-poltekkessmr.png" class="img-fluid w-100" alt="Logo UEU" style="width: 80px; height: 80px; object-fit: cover;">
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col-4">
-                                            <div class="footer-instagram rounded logo-container">
-                                                <img src="img/logo-stikes.png" class="img-fluid w-100" alt="">
-                                                <div class="footer-search-icon">
-                                                    <a href="img/logo-stikes.png" data-lightbox="footerInstagram-5" class="my-auto"><i class="fas fa-link text-white"></i></a>
-                                                </div>
+                                            <div class="footer-instagram rounded logo-container position-relative">
+                                                <a href="https://stikeswiramedika.ac.id/" target="_blank">
+                                                    <img src="img/logo-stikes.png" class="img-fluid w-100" alt="Logo UEU" style="width: 80px; height: 80px; object-fit: cover;">
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col-4">
-                                            <div class="footer-instagram rounded logo-container">
-                                                <img src="img/logo-poltekkes-tasikmalaya.jpeg" class="img-fluid w-100" alt="">
-                                                <div class="footer-search-icon">
-                                                    <a href="img/logo-poltekkes-tasikmalaya.jpeg" data-lightbox="footerInstagram-6" class="my-auto"><i class="fas fa-link text-white"></i></a>
-                                                </div>
+                                            <div class="footer-instagram rounded logo-container position-relative">
+                                                <a href="https://poltekkestasikmalaya.ac.id/" target="_blank">
+                                                    <img src="img/logo-poltekkes-tasikmalaya.jpeg" class="img-fluid w-100" alt="Logo UEU" style="width: 80px; height: 80px; object-fit: cover;">
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
