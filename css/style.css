@@ -716,6 +716,12 @@
     max-width: 20%;  /* Memastikan lebar maksimum kolom juga 20% */
 }
 
+.label {
+    display: inline-block;
+    width: 300px; /* Sesuaikan lebar ini sesuai kebutuhan */
+    font-weight: bold;
+}
+
 /*** Team End ***/
 
 /*** Testimonial Start ***/
