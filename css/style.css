@@ -722,6 +722,21 @@
     font-weight: bold;
 }
 
+@media (max-width: 767px) {
+    .about-item-content, .bg-white {
+        padding: 10px; /* Sesuaikan padding agar konten lebih pas di layar ponsel */
+    }
+
+    .rounded.bg-light {
+        padding: 0; /* Kurangi padding pada gambar */
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 /*** Team End ***/
 
 /*** Testimonial Start ***/
