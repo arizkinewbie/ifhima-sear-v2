@@ -256,6 +256,10 @@
 
 .header-carousel .header-carousel-item {
     height: 700px;
+    background-size: cover; /* Agar gambar menutupi seluruh area */
+    background-position: center; /* Menempatkan gambar di tengah */
+    background-repeat: no-repeat; /* Tidak mengulang gambar */
+    position: relative; /* Untuk memastikan konten lain di dalam item tidak terpengaruh */
 }
 
 .header-carousel .owl-nav .owl-prev,
@@ -299,9 +303,10 @@
     height: 100%;
     left: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, .2);
+    background: none;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 991px) {
