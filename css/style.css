@@ -1081,6 +1081,7 @@
 .footer .footer-item {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .footer .footer-item a {
@@ -1193,6 +1194,18 @@
 .footer .logo-container img {
     object-fit: contain; /* Menjaga proporsi gambar */
     max-height: 150px; /* Mengatur tinggi maksimal agar semua logo seragam */
+}
+
+.container-fluid.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: grid;
+    place-items: center; /* Centers content horizontally and vertically */
+}
+
+.container.footer {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /*** Footer End ***/
