@@ -956,6 +956,31 @@
     }
 }
 
+.img-fluid {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .img-fluid {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .col-lg-5 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .image-container img {
+        margin-right: 10px; /* Berikan jarak antar gambar */
+    }
+    .image-container img:last-child {
+        margin-right: 0; /* Menghapus margin pada gambar terakhir dalam satu baris */
+    }
+}
 
 /*** Testimonial Start ***/
 
