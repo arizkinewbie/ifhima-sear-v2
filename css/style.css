@@ -1,4 +1,25 @@
 /*** Spinner Start ***/
+.running-text {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.text-marquee {
+    display: inline-block;
+    animation: marquee 25s linear infinite;
+    font-size: 20px;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
 
 #spinner {
     opacity: 0;
